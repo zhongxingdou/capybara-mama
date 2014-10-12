@@ -2,7 +2,7 @@
 help you using capybara and rspec test non-rails project
 
 ## How to use?
-本项目将打包成独立的gem包，目前需要你将所有文件作为测试项目的基础
+目前需要你将所有文件作为测试项目的基础，未来将打包成独立的gem包发布，请关注
 
 ## Futures
 * 在一组test case中自动切换多个会话，在test case说明后直接标记会话名即可
