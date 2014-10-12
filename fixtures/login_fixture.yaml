@@ -1,0 +1,9 @@
+login_path: /
+home_path: /
+corret_pwd: "111111"
+incorret_pwd: "123456"
+login_name: guest
+logout_path: /logout
+admin_name: admin
+admin_pwd: "111111"
+admin_home_path: /admin

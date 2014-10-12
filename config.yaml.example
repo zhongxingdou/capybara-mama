@@ -1,0 +1,21 @@
+browser: &defaults_browser chrome #firefox ie
+app: &defaults_app host.com
+driver: &defaults_driver selenium
+#server: &defaults_server x.x.x.x
+session: &defaults_session client
+accounts: 
+  guest: 111111
+  sysadmin: 111111
+sessions:
+  client:
+    account: guest
+    driver: selenium
+  admin:
+    account: sysadmin
+    driver: selenium
+  client_gui:
+    account: guest
+    driver: selenium
+  admin_gui:
+    driver: selenium
+    account: sysadmin
